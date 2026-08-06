@@ -15,6 +15,6 @@ App de iOS hecha en **SwiftUI** con Xcode. Muestra un catálogo de 15 cócteles;
 
 ## Capturas
 
-| Menú | Detalle |
-|---|---|
-| ![Menú](Screenshots/menu.png) | ![Detalle](Screenshots/detalle.png) |
+| Launch Screen | Menú | Detalle |
+|---|---|---|
+| ![Launch Screen](Screenshots/launch.png) | ![Menú](Screenshots/menu.png) | ![Detalle](Screenshots/detalle.png) |
