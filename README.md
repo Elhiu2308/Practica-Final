@@ -43,8 +43,3 @@ Aplicación para iOS hecha en SwiftUI con Xcode. Muestra un catálogo de 15 cóc
 | Launch Screen | Menú Principal | Vista de Detalle |
 |---|---|---|
 | ![Launch Screen](Screenshots/launch.png) | ![Menú](Screenshots/menu.png) | ![Detalle](Screenshots/detalle.png) |
-
-## 🛠️ Cómo compilar
-
-1. Abrir el proyecto `Drinks` en Xcode.
-2. Seleccionar un iPhone y presionar **Cmd + R**.
