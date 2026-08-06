@@ -7,40 +7,36 @@
 
 ## 🚀 Descripción del Proyecto
 
-Aplicación para iOS desarrollada en **SwiftUI** con **Xcode** como entrega de la Práctica Final del Módulo 5. Implementa un catálogo interactivo de 15 cócteles que demuestra la navegación entre vistas, el manejo de recursos visuales en el Asset Catalog, las restricciones de dispositivo y orientación, y una interfaz oscura personalizada con tipografías y colores propios.
+Aplicación para iOS hecha en SwiftUI con Xcode. Muestra un catálogo de 15 cócteles; al tocar cualquier bebida se abre su foto en grande y se puede regresar con el botón de atrás o con swipe. Tiene tema oscuro, tipografías y colores personalizados.
 
 ## ✅ Cumplimiento de Requerimientos Funcionales
 
-La aplicación está diseñada para cubrir los criterios de evaluación solicitados:
-
 ### 🚀 Configuración Inicial y Branding
 
-- **AppIcon** configurado en el Asset Catalog (el icono aparece en el home del iPhone).
-- **Launch Screen** personalizada en Storyboard: muestra el nombre de la app ("Drinks") en tipografía Snell Roundhand sobre fondo personalizado.
+- La app tiene un icono que aparece en el home del iPhone.
+- Al abrir, muestra una pantalla de inicio personalizada con el nombre "Drinks".
 
 ### 🍸 Vista Principal y Catálogo de Cócteles
 
-- Lista de las **15 bebidas** solicitadas, mostrada con `ScrollView` + `LazyVStack`.
-- Los datos se manejan con un modelo `Drink` (struct con nombre e imagen) definido en `Drink.all`; cada bebida se muestra con su nombre y una miniatura redondeada.
-- Cada fila incluye un indicador de selección (chevron).
+- Muestra la lista de las 15 bebidas con su nombre y una foto pequeña.
+- Cada bebida tiene una flecha que indica que se puede seleccionar.
 
 ### 🔄 Navegación y Detalle de Bebida
 
-- Al tocar cualquier bebida, `NavigationStack` + `NavigationLink` hacen la transición a la vista de detalle.
-- La vista de detalle presenta la **imagen del cóctel en alta resolución** desde el Asset Catalog mediante su índice/nombre (`Image(drink.imageName)`), sobre un degradado radial.
-- El regreso funciona con el **botón "back"** de la barra de navegación y con el **gesto swipe** hacia la derecha.
+- Al tocar una bebida se abre la vista de detalle con la foto del cóctel en grande.
+- Para regresar se usa el botón "back" que aparece arriba o el gesto swipe.
 
 ### 📱 Configuración del Dispositivo y Restricciones
 
-- La app solo se ejecuta en **iPhone** (`TARGETED_DEVICE_FAMILY = 1`).
-- Orientación fija en **Portrait** (rotación deshabilitada).
+- La app solo corre en iPhone.
+- La pantalla siempre está en vertical (Portrait), no rota.
 
 ### 🎨 Personalización Visual e Interfaz (Punto Extra)
 
-- Temática oscura premium con paleta propia (`BarDeep`, `BarBackground`, `BarGold`, `Cream`).
-- Tipografías personalizadas: **Snell Roundhand**, **Didot-Bold** y **Avenir Next**.
-- Detalles dorados, degradados y bordes redondeados en filas y vistas.
-- Localización **Español/Inglés** (`Localizable.xcstrings`).
+- Tema oscuro con colores dorados y paleta propia.
+- Tipografías distintas (Snell Roundhand, Didot, Avenir Next).
+- Bordes redondeados y degradados en filas y vistas.
+- Textos en español e inglés.
 
 ## 📸 Capturas de Pantalla de la Aplicación
 
@@ -50,6 +46,5 @@ La aplicación está diseñada para cubrir los criterios de evaluación solicita
 
 ## 🛠️ Cómo compilar
 
-1. Abrir `Drinks.xcodeproj` en Xcode.
-2. Seleccionar un simulador de iPhone (o un dispositivo con Developer Mode activado).
-3. Presionar **Cmd + R**.
+1. Abrir el proyecto `Drinks` en Xcode.
+2. Seleccionar un iPhone y presionar **Cmd + R**.
