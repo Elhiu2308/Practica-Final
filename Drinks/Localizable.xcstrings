@@ -1,0 +1,36 @@
+{
+  "sourceLanguage" : "es",
+  "strings" : {
+    "¡Disfruta tu cóctel!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enjoy your cocktail"
+          }
+        }
+      }
+    },
+    "Bebidas" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drinks"
+          }
+        }
+      }
+    },
+    "MENÚ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MENU"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
